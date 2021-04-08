@@ -43,4 +43,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button2"
         app:layout_constraintVertical_bias="0.164" />
+
+    <Button
+        android:id="@+id/Quran"
+        android:layout_width="205dp"
+        android:layout_height="181dp"
+        app:backgroundTint="#003F51B5"
+        app:icon="@drawable/quran"
+        app:iconSize="130sp"
+        app:iconTint="#FFC107"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.626"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3"
+        app:layout_constraintVertical_bias="0.289" />
 </androidx.constraintlayout.widget.ConstraintLayout>
